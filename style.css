@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+/* This will be covered in further sessions */
+* {
+    box-sizing: border-box;
+}
+
+.main {
+    background-image: url('https://assets.ccbp.in/frontend/intermediate-rwd/musical-night-bg.png');
+}
+
+body {
+    margin: 0px;
+    background-size: cover;
+    font-family: 'Roboto';
+}
+
+.card {
+    overflow: auto;
+    background-color: white;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 6px;
+    height: 400px;
+
+}
+
+h3 {
+    font-weight: bold;
+    color: #12022f;
+}
+
+p {
+    color: #594d6d;
+}
+
+.img1 {
+    border-radius: 15px;
+    width: 200px;
+    max-width: 350px;
+    height: 120px;
+}
+
+.img23 {
+    border-radius: 10px;
+    width: 100px;
+    max-width: 150px;
+    height: 100px;
+}
